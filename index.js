@@ -1,5 +1,5 @@
 const axios = require("axios")
-const urls = ["https://rika-backup.glitch.me"]
+const urls = ["https://247rika.glitch.me"]
 setInterval(function() {
             urls.forEach(url => {
             axios.get(url).then(console.log("Pong at " + Date.now())).catch(() => {});
